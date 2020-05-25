@@ -1,13 +1,3 @@
-#import <Cordova/CDVPlugin.h>
-
-@interface Echo : CDVPlugin
-
-- (void)echo:(CDVInvokedUrlCommand*)command;
-
-@end
-
-/********* Echo.m Cordova Plugin Implementation *******/
-
 #import "Echo.h"
 #import <Cordova/CDVPlugin.h>
 
