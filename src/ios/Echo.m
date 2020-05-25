@@ -6,14 +6,13 @@
 - (void)echo:(CDVInvokedUrlCommand*)command
 {
     CDVPluginResult* pluginResult = nil;
-    NSString* echo = [command.arguments objectAtIndex:0];
+    NSString* myarg = [command.arguments objectAtIndex:0];
 
-    if (echo != nil && [echo length] > 0) {
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:echo];
+    if (myarg != nil) {
+        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
     } else {
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
+        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"Arg was null"];
     }
-
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
