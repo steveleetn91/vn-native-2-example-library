@@ -1,0 +1,32 @@
+{
+  "name": "vn-native-2-example-library",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveleetn91/vn-native-2-example-library.git"
+  },
+  "keywords": [
+    "hoang",
+    "lee",
+    "vn",
+    "native",
+    "framework",
+    "vn",
+    "native",
+    "library",
+    "native",
+    "framework",
+    "vietnamese"
+  ],
+  "author": "hoang lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steveleetn91/vn-native-2-example-library/issues"
+  },
+  "homepage": "https://github.com/steveleetn91/vn-native-2-example-library#readme"
+}
