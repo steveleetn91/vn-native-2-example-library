@@ -1,4 +1,4 @@
-var cordova = require('cordova');
+var exec = require('cordova/exec');
 module.exports = {
     run :  function(str,callback){
         cordova.exec(callback, function(err) {
