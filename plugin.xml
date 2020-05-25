@@ -5,6 +5,7 @@
     <description>Cordova Device Plugin</description>
     <license>Apache 2.0</license>
     <keywords>vnnative,example library</keywords>
+    <asset src="www/example-library.js" target="www/example-library.js"/>
     <js-module src="www/example-library.js" name="examplelibrary">
         <clobbers target="echo" />
     </js-module>
