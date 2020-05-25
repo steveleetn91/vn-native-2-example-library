@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="vn-native-2-example-library" version="1.0.12">
+        id="vn-native-2-example-library" version="1.0.13">
     <name>Vn Native example library</name>
     <description>Cordova Device Plugin</description>
     <license>Apache 2.0</license>
@@ -13,7 +13,6 @@
         <config-file target="config.xml" parent="/*">
             <feature name="Echo">
                 <param name="ios-package" value="Echo" />
-                <param name="onload" value="true" />
             </feature>
         </config-file>
         <header-file src="src/ios/Echo.h" />
