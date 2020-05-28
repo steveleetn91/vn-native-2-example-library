@@ -1,15 +1,35 @@
 {
-  "name": "vn-native-2-example-library",
-  "version": "1.0.22",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+  "_from": "git+https://github.com/steveleetn91/vn-native-2-example-library.git",
+  "_id": "vn-native-2-example-library@1.0.22",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/vn-native-2-example-library",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/steveleetn91/vn-native-2-example-library.git"
+    "raw": "https://github.com/steveleetn91/vn-native-2-example-library.git",
+    "rawSpec": "https://github.com/steveleetn91/vn-native-2-example-library.git",
+    "saveSpec": "git+https://github.com/steveleetn91/vn-native-2-example-library.git",
+    "fetchSpec": "https://github.com/steveleetn91/vn-native-2-example-library.git",
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/steveleetn91/vn-native-2-example-library.git#7d6f00abee2b95de9f65a70d71ac301dd37af936",
+  "_spec": "https://github.com/steveleetn91/vn-native-2-example-library.git",
+  "_where": "/Users/hoanglee/Works/vn-native-project/ilovevn/app",
+  "author": {
+    "name": "hoang lee"
+  },
+  "bugs": {
+    "url": "https://github.com/steveleetn91/vn-native-2-example-library/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/steveleetn91/vn-native-2-example-library#readme",
   "keywords": [
     "hoang",
     "lee",
@@ -23,10 +43,15 @@
     "framework",
     "vietnamese"
   ],
-  "author": "hoang lee",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/steveleetn91/vn-native-2-example-library/issues"
+  "main": "index.js",
+  "name": "vn-native-2-example-library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveleetn91/vn-native-2-example-library.git"
   },
-  "homepage": "https://github.com/steveleetn91/vn-native-2-example-library#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.22"
 }

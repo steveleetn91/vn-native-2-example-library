@@ -5,16 +5,46 @@
     <description>Cordova Device Plugin</description>
     <license>Apache 2.0</license>
     <keywords>vnnative,example library</keywords>
-    <js-module src="www/echo.js" name="echo">
-        <clobbers target="echo" />
-    </js-module>
     <platform name="ios">
-        <config-file target="config.xml" parent="/*">
+        <js-module src="www/ios/echo.js" name="echo">
+            <clobbers target="echo" />
+        </js-module>
+        <config-file target="config.xml" parent="/widget">
             <feature name="Echo">
                 <param name="ios-package" value="Echo" />
             </feature>
         </config-file>
         <header-file src="src/ios/Echo.h" />
         <source-file src="src/ios/Echo.m" />
+    </platform>
+    <platform name="android">
+        <js-module src="www/android/echo.js" name="echo">
+            <clobbers target="echo" />
+        </js-module>
+        <config-file target="config.xml" parent="/widget">
+            <feature name="Echo">
+                <param name="android-package" value="org.apache.cordova.plugin.Echo"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Echo.java" target-dir="src/org/apache/cordova/plugin" />
+    </platform>
+    <platform name="browser">
+        <js-module src="www/browser/echo.js" name="echo">
+            <clobbers target="echo" />
+        </js-module>
+    </platform>
+    <platform name="osx">
+        <js-module src="www/osx/echo.js" name="echo">
+            <clobbers target="echo" />
+        </js-module>
+    </platform>
+    <platform name="windows">
+        <js-module src="www/windows/echo.js" name="echo">
+            <clobbers target="echo" />
+        </js-module>
+        <js-module src="src/windows/echopluginProxy.js" name="EchoProxy">
+            <merges target="" />
+        </js-module>
     </platform>
 </plugin>
