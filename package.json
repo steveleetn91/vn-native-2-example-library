@@ -17,9 +17,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/steveleetn91/vn-native-2-example-library.git#7d6f00abee2b95de9f65a70d71ac301dd37af936",
+  "_resolved": "git+https://github.com/steveleetn91/vn-native-2-example-library.git#bbd9650a149a43837fcfa738d828c3958527da9f",
   "_spec": "https://github.com/steveleetn91/vn-native-2-example-library.git",
-  "_where": "/Users/hoanglee/Works/vn-native-project/ilovevn/app",
+  "_where": "/Users/hoanglee/workplace/vn-native-software/vnnativesoftware/app",
   "author": {
     "name": "hoang lee"
   },

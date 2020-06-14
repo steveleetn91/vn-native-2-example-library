@@ -38,6 +38,13 @@
         <js-module src="www/osx/echo.js" name="echo">
             <clobbers target="echo" />
         </js-module>
+        <config-file target="config.xml" parent="/widget">
+            <feature name="Echo">
+                <param name="ios-package" value="Echo" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/Echo.h" />
+        <source-file src="src/ios/Echo.m" />
     </platform>
     <platform name="windows">
         <js-module src="www/windows/echo.js" name="echo">
